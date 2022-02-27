@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    padding: 5px 10px;
+}
+.modal-header{
+    display: block;
+}
+.modal-header .btn-close{
+    display: block;
+    
+}
+.search{
+    color: black;
+    text-decoration: none;
+}
+.search:hover{
+    color: black;
+    text-shadow: 1px 1px 1px rgb(187, 217, 255);
+}
+.search img:hover{
+    box-shadow: 0px 0px 2px rgb(78, 78, 78);
+}
+.modal-content{
+    /* background: linear-gradient(120deg, rgba(75,115,255,1) 0%, rgba(75,26,255,1) 49%, rgba(23,36,143,1) 100%);
+    background: rgb(147,75,255);
+background: linear-gradient(9deg, rgba(147,75,255,1) 0%, rgba(145,62,252,1) 49%, rgba(122,33,246,1) 100%); */
+}

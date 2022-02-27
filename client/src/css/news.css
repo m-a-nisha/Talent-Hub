@@ -1,0 +1,103 @@
+#bulb{
+    /* transition: ; */
+    animation: bulbrotate 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes bulbrotate {
+    /* 0%{transform: rotateZ(0deg);}
+    25%{transform: rotateZ(45deg);}
+    75%{transform: rotateZ(-25deg);} */
+    0%{
+        transform: scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.5);
+    }
+}
+
+#circle, #circle_2, #circle_3{
+    animation: rotate 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+/* .news{
+    background-color: blueviolet;
+} */
+
+/* #ballon{
+    animation: ballonani 2s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes ballonani{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(2deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-2deg);
+    }
+} */
+
+#loginsvg{
+    box-shadow: 2px 2px 5px rgb(252, 246, 255);
+     /* background: linear-gradient(5deg, rgb(158, 255, 218) 0%, rgb(220, 253, 113) 51%, rgb(250, 216, 123) 100%); */
+     /* background: linear-gradient(5deg, rgb(128, 87, 250) 0%, rgb(197, 97, 255) 51%, rgb(255, 123, 251) 100%); */
+     /* background-color: aliceblue; */
+     filter: brightness(120%)
+     opacity(1.2);
+     /* z-index: 1; */
+     animation: move 4s ease-in-out infinite;
+     
+}
+@keyframes move {
+    from{
+        transform: translateZ(0px) ;
+        /* transform: translateY(0px); */
+    }
+    from{
+        transform: translateZ(25px);
+        /* transform: translateY(25px); */
+    }
+}
+#log,#password_2,#password_1,#home, #tick{
+    animation: phone 5s ease-in-out infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes phone{
+    0%{
+        transform: scale(0);
+    }
+    35%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+

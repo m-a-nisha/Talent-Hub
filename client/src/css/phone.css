@@ -1,0 +1,178 @@
+/* #loginContainer {
+    flex-direction: column;
+} */
+@media only screen and (max-width: 891px) {
+  #loginContainer {
+    flex-direction: column-reverse;
+  }
+  #loginsvg {
+    margin-bottom: 25px;
+  }
+  #signUp {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .viewContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .user {
+    padding: 5px !important;
+  }
+  .editSection {
+    justify-content: center;
+  }
+  .edit {
+    margin-right: -6em;
+  }
+}
+@media only screen and (max-width: 574px) {
+  #loginsvg svg {
+    width: 100%;
+    width: 450px;
+    height: 300px;
+  }
+  .homeList h6 {
+    padding: 3px 2px;
+    margin: 2px 2px;
+    font-size: 0.75rem;
+  }
+  .followButton{
+    font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 505px) {
+  .profile_img {
+    max-width: 100px;
+    min-height: 100px;
+    width: 100%;
+    height: auto;
+  }
+  .user_details span {
+    font-size: 0.8em;
+  }
+  .col-4 {
+    flex: 0 0 auto;
+    width: 31.333333%;
+}
+}
+@media only screen and (max-width: 460px) {
+  #loginsvg svg {
+    width: 350px;
+  }
+  .createPost {
+    margin: 15px;
+  }
+  .editSection {
+    margin-right: 0px;
+    padding: 0.5px !important;
+  }
+  .user {
+    padding: 0.5px 3px !important;
+  }
+  .user_details {
+    padding: 0.5px 2px !important;
+  }
+  .user_details span {
+    font-size: 0.8em;
+  }
+  
+}
+@media only screen and (max-width: 453px) {
+  .card {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 434px) {
+  .post_image {
+    max-width: 375px;
+    /* width: 100%; */
+    height: 350px;
+    /* height: 100%; */
+  }
+  .profilesection2 {
+    margin: 5px 5px !important;
+  }
+  .profile_img {
+    max-width: 70px;
+    min-height: 70px;
+    width: 100%;
+    height: auto;
+  }
+  .edit {
+    margin-right: -5em;
+    font-size: 0.6em;
+  }
+  .user_details span {
+    font-size: 0.7em;
+    margin-left: 0.5px;
+  }
+  .user_details h4 {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .post_image {
+    max-width: 350px;
+    height: 325px;
+  }
+   .followButton{
+    font-size: 0.65em;
+    padding: 2px 5px;
+  }
+}
+@media only screen and (max-width: 357px) {
+  .post_image {
+    max-width: 325px;
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .post_image {
+    max-width: 300px;
+    height: 275px;
+  }
+  .user_details span {
+    font-size: 0.67em;
+    margin-left: -3.5px;
+  }
+  .profile_img {
+    max-width: 61px;
+    min-height: 61px;
+    width: 100%;
+    height: auto;
+  }
+  .edit {
+    margin-right: -5.3em;
+    font-size: 0.55em;
+  }
+}
+@media only screen and (max-width: 304px) {
+  .post_image {
+    max-width: 275px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 359px) {
+  #loginsvg svg {
+    width: 250px;
+  }
+  .createPost {
+    margin: 5px;
+  }
+  .homeList i {
+    display: none;
+  }
+  .homeList h6 {
+    padding: 3px 3px;
+    margin: 2px 2px;
+    font-size: 0.75rem;
+  }
+}

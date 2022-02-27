@@ -1,0 +1,102 @@
+.about {
+  /* background-color: #f0e68c; */
+  text-align: center;
+  color: black;
+  /* background: rgb(183,56,253);
+background: linear-gradient(137deg, rgb(190, 83, 248) 0%, rgb(158, 64, 252) 100%); */
+  /* background: rgb(128,117,255);
+background: linear-gradient(5deg, rgb(117, 255, 214) 0%, rgb(51, 201, 247) 51%, rgb(4, 121, 255) 100%); */
+}
+
+.item {
+  margin: 10px 10px;
+  /* background-color: aqua; */
+  display: flex;
+  /* flex-direction: row;
+    flex-direction: column; */
+  justify-content: center;
+    align-items: center;
+}
+.item div {
+  background-color: aliceblue;
+  color: black;
+  box-shadow: 0px 0px 3px gray;
+}
+
+.item img {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+  padding: 5px;
+}
+.item p {
+  word-wrap: break-word;
+  /* overflow: hidden; */
+  text-align: center;
+  font-size: 0.8em;
+}
+.item .card {
+  width: 12em;
+}
+
+.header p {
+  margin: 1px;
+}
+
+@media only screen and (max-width: 671px){
+   .card-body {
+    
+    padding: 0.1rem 0.1rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .header h4 {
+    font-size: 1.1em;
+  }
+  .header p {
+    font-size: 0.8em;
+    
+  }
+  .item {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .item .card {
+    width: 12em;
+  }
+}
+@media only screen and (max-width: 423px) {
+  .header h4 {
+    font-size: 1.1em;
+  }
+  .header p {
+    font-size: 0.8em;
+  }
+  .item {
+    margin: 3px 3px;
+  }
+  .item .card {
+    width: 9em;
+  }
+  .idea{
+      flex-direction: column-reverse;
+  }
+}
+@media only screen and (max-width: 314px) {
+  .header h4 {
+    font-size: 1.1em;
+  }
+  .header p {
+    font-size: 0.8em;
+  }
+  .item img {
+    width: 7em;
+    height: 7em;
+  }
+  .item .card {
+    max-width: 7em;
+    width: 100%;
+    height: auto;
+  }
+}
