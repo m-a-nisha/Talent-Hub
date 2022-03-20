@@ -1,2 +1,2 @@
 # Talent-Hub
-https://talenthub--1.herokuapp.com/
+https://talenthubs.herokuapp.com/
